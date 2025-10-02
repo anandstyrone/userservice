@@ -6,8 +6,8 @@ import (
 )
 
 func main() {
-    config.ConnectDB()
+    config.ConnectDatabase()
     r := routes.SetupRouter()
-    r.Run(":8080")
+    r.Run(":8081") 
 }
 
